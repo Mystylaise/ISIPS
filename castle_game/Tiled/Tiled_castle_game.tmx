@@ -135,6 +135,17 @@
    <image width="64" height="128" source="../textures/64x64/faux.png"/>
   </tile>
  </tileset>
+ <tileset firstgid="69" name="coffre" tilewidth="84" tileheight="84">
+  <image source="../textures/coffre.png" trans="ff00ff" width="168" height="84"/>
+ </tileset>
+ <tileset firstgid="71" name="sol_trone" tilewidth="84" tileheight="84">
+  <image source="../textures/sol_trone.png" trans="ff00ff" width="420" height="84"/>
+ </tileset>
+ <tileset firstgid="76" name="tile_wall_2" tilewidth="168" tileheight="168">
+  <tile id="0">
+   <image width="168" height="168" source="../textures/tiled_wall.jpg"/>
+  </tile>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKC1sX9DY3gICSiouQ4AAG8tV1cAKA==
@@ -147,12 +158,12 @@
  </layer>
  <layer name="inside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4CBgRGNHupgqPiHFwnjA+j+oRVNLzDqH/JoeoFR/5BH0wuM+oc8ml4A3V49KtHD3T8AzigDyw==
+   eJxjYBgFo4CBgRGNHupgqPiHFwnjA+j+8aEyTe9wGu7+oRVNLzDqH/JoeoFR/5BH0wug26tHJXq4+wcAtaMJpw==
   </data>
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG0A7BSnEh4FtAOj8TMK6AVAaYWJgbg0JQHVI4FFbhTQBqCHPwyPlgGDA5BTLhMTVwBH8weD
+   eJxjYBgFo4C+gG0A7BSnEh4Fo2AUDH0AystMDMTleQmoHgkscqOANgA9/GF4tIweHICcepOYuAIASDAF/A==
   </data>
  </layer>
  <layer name="outside_walls" width="26" height="26">
@@ -192,7 +203,7 @@
  </layer>
  <layer name="salle_du_trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0AoYU0kNLmAEpU2B2BBJXB+JbQClTSiwhxRgSid7RsEoGAWjYBQMHwAACIgBxw==
+   eJxjYBgFo2AU0AoYU0kNLmAEpU2B2BBJXB+JbQClTSiwhxRgSoYedyD2IBN7ArEXEHtT6vBRMApGwSgYBQMGAANKBtw=
   </data>
  </layer>
 </map>
