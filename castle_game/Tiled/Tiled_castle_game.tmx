@@ -72,6 +72,69 @@
  <tileset firstgid="41" name="torche" tilewidth="84" tileheight="84">
   <image source="../textures/torche.png" width="84" height="84"/>
  </tileset>
+ <tileset firstgid="42" name="egout" tilewidth="84" tileheight="84">
+  <image source="../textures/egout.png" trans="ff00ff" width="336" height="84"/>
+ </tileset>
+ <tileset firstgid="46" name="tile_fond" tilewidth="168" tileheight="168">
+  <tile id="0">
+   <image width="168" height="168" source="../textures/tiled_wall_prison.jpg"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="47" name="tete_chasse" tilewidth="84" tileheight="84">
+  <image source="../textures/tete_chasse.png" trans="ff00ff" width="168" height="168"/>
+ </tileset>
+ <tileset firstgid="51" name="chandelier" tilewidth="84" tileheight="84">
+  <image source="../textures/chandelier.png" trans="ff00ff" width="84" height="252"/>
+ </tileset>
+ <tileset firstgid="54" name="perso" tilewidth="86" tileheight="86">
+  <tile id="0">
+   <image width="86" height="86" source="../textures/Personnage/idle_D.png"/>
+  </tile>
+  <tile id="1">
+   <image width="86" height="86" source="../textures/Personnage/idle_G.png"/>
+  </tile>
+  <tile id="2">
+   <image width="86" height="86" source="../textures/Personnage/walk_01.png"/>
+  </tile>
+  <tile id="3">
+   <image width="86" height="86" source="../textures/Personnage/walk_02.png"/>
+  </tile>
+  <tile id="4">
+   <image width="86" height="86" source="../textures/Personnage/walk_03.png"/>
+  </tile>
+  <tile id="5">
+   <image width="86" height="86" source="../textures/Personnage/walk_04.png"/>
+  </tile>
+  <tile id="6">
+   <image width="86" height="86" source="../textures/Personnage/walk_05.png"/>
+  </tile>
+  <tile id="7">
+   <image width="86" height="86" source="../textures/Personnage/walk_06.png"/>
+  </tile>
+  <tile id="8">
+   <image width="86" height="86" source="../textures/Personnage/walk_07.png"/>
+  </tile>
+  <tile id="9">
+   <image width="86" height="86" source="../textures/Personnage/walk_08.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="64" name="prison64" tilewidth="64" tileheight="128">
+  <tile id="0">
+   <image width="64" height="64" source="../textures/64x64/piques.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../textures/64x64/piloris.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../textures/64x64/piques_bas.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../textures/64x64/pique-mid.png"/>
+  </tile>
+  <tile id="4">
+   <image width="64" height="128" source="../textures/64x64/faux.png"/>
+  </tile>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKC1sX9DY3gICSiouQ4AAG8tV1cAKA==
@@ -84,12 +147,12 @@
  </layer>
  <layer name="inside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4CBgRGNHupgqPiHFwnjA+j+oRVNLzDqH/JoeoFR/5BH0wuM+oc8ml5g1D/k0QDTygCh
+   eJxjYBgFo4CBgRGNHupgqPiHFwnjA+j+oRVNLzDqH/JoeoFR/5BH0wuM+oc8ml4A3V49KtHD3T8AzigDyw==
   </data>
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG0A7BSnEh4FtAOj8TMK6AVAaYWJgbg0JQHVI4FFbhTQBqCHPwyPlgGDA9CqPgUAS4sHmg==
+   eJxjYBgFo4C+gG0A7BSnEh4FtAOj8TMK6AVAaYWJgbg0JQHVI4FFbhTQBqCHPwyPlgGDA5BTLhMTVwBH8weD
   </data>
  </layer>
  <layer name="outside_walls" width="26" height="26">
@@ -104,7 +167,7 @@
  </layer>
  <layer name="perso" width="26" height="26" opacity="0.99">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG2gHTCIAB+U5qWxPQI0Nh8b4EHjcwyAG0bBKBgF1AXcQMyJJkYMnxWI2WnlqFEAB+SGMStVXUEeAABr7gCN
+   eJxjYBgFo4C+gG2gHTCIAB+U5qWxPQJIbEEa2wUDPGh8DjrZOwpGwSigHeAGYk40MXx8CyQ+O60cNQrgABbGZgPqCvIAAG6pAQI=
   </data>
  </layer>
  <layer name="Calque 8" width="26" height="26">
@@ -120,6 +183,16 @@
  <layer name="Calque 6" width="26" height="26">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMAoGD5AFYmkolkHjI4vjUksIyFHZvYMNCKPxhZDYglB5QSrYI0KhPC2AKBCLQfEoGFoAAHC8AoI=
+  </data>
+ </layer>
+ <layer name="prison" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBcMZOCKxtYFYC4saXTq5BRsAAHl4AMQ=
+  </data>
+ </layer>
+ <layer name="salle_du_trone" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0AoYU0kNLmAEpU2B2BBJXB+JbQClTSiwhxRgSid7RsEoGAWjYBQMHwAACIgBxw==
   </data>
  </layer>
 </map>
