@@ -149,6 +149,9 @@
  <tileset firstgid="79" name="decor_epee" tilewidth="84" tileheight="84">
   <image source="../textures/decor_epee.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
+ <tileset firstgid="80" name="tiled_outside_wall" tilewidth="168" tileheight="168">
+  <image source="../textures/tiled_outside_wall.jpg" width="168" height="168"/>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKC1sX9DY3gICSiouQ4AAG8tV1cAKA==
@@ -161,7 +164,7 @@
  </layer>
  <layer name="inside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4CBgRGNHupgqPiHFwnjA+j+8aMyTe9wGu7+oRVNLzDqH/JoeoFR/5BH0wug26tHJXq4+wcAsZIJzw==
+   eJxjYBgFo4CBgRGNHupgqPiHFwnjA+j+8aMyTe9wGu7+CaASPVDpeKj5R5OA/FDzDyGAbi+taHqB4e4fPSrRw90/APqeEk0=
   </data>
  </layer>
  <layer name="floor" width="26" height="26">
@@ -191,7 +194,7 @@
  </layer>
  <layer name="Calque 7" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGL9CE0qxIYhpUMFeOCIxP/VAAmmj0KBgFgxUAAHShAi8=
+   eJxjYBgFo2AUjIJRMAoGL9CE0qxIYhp41BEL5IjA+NQPBaCJRo+CUTBYAQAOcAJY
   </data>
  </layer>
  <layer name="Calque 6" width="26" height="26">
