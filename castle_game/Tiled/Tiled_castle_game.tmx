@@ -176,11 +176,11 @@
  <tileset firstgid="103" name="walls-oustide" tilewidth="84" tileheight="84">
   <image source="../textures/walls-oustide.png" width="336" height="84"/>
  </tileset>
- <tileset firstgid="107" name="ladder" tilewidth="84" tileheight="84">
-  <image source="D:/castle_game/textures/ladder.png" width="84" height="336"/>
- </tileset>
- <tileset firstgid="111" name="hall_floor" tilewidth="84" tileheight="84">
+ <tileset firstgid="107" name="hall_floor" tilewidth="84" tileheight="84">
   <image source="../textures/hall_floor.png" width="336" height="84"/>
+ </tileset>
+ <tileset firstgid="111" name="ladder" tilewidth="84" tileheight="84">
+  <image source="../textures/ladder.png" width="84" height="336"/>
  </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
@@ -229,7 +229,7 @@
  </layer>
  <layer name="Calque 6" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALsIJtO9uTRyZ7cYWbPcAQ5QCwPxLJQLIfGRxZnwKGWGECvOMKXtkVoZI8ompwwElsIKi9EBXvECKglJE8rIAHFo2BoAQBf4wZm
+   eJxjYBgFo2AUjIJRMAoGD5AHYlkolkPjI4vjUjtUgAiNzBVF4wsjsYWg8kJUsEeMQnlaAQkoHgVDCwAAs7ACkA==
   </data>
  </layer>
  <layer name="prison" width="26" height="26">
@@ -244,7 +244,7 @@
  </layer>
  <layer name="cage" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYHCAfiovQxIuQ5PJx8AuAuBCKRzqIIUAPNgAA7yQIAw==
+   eJxjYBgFo2AUjALsIJ9O9hTRyZ7CYWbPcAQFdLKHXnFEr7Q9nOzJhuI8NPE8JLlsHPwcIM6F4pEOYgjQgw0AAMq3C8E=
   </data>
  </layer>
 </map>
