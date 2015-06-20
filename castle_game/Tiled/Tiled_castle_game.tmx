@@ -170,6 +170,9 @@
  <tileset firstgid="98" name="staircase_down" tilewidth="504" tileheight="420">
   <image source="../textures/staircase_down.png" width="504" height="420"/>
  </tileset>
+ <tileset firstgid="99" name="mirador" tilewidth="84" tileheight="84">
+  <image source="../textures/mirador.png" trans="ff00ff" width="84" height="84"/>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKClsX9EY3gICSiouQ4AAG8tTs8AJw==
@@ -192,7 +195,7 @@
  </layer>
  <layer name="outside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBhegAVKM9HAbJiZzFB7mKCYGYmmlj0w82hlD7q5A20PLGzJpQnZQy0was+oPaP2jNozas+oPaP2UN8eAL1yAiY=
+   eJxjYBhegAVKM9HAbJiZzFB7mKCYGYmmlj0w82hlD7q5A21PMlQ9uTQhe6gFRu0ZtWfUnlF7Ru0ZtWfUHurbAwDCOgUu
   </data>
  </layer>
  <layer name="Calque 5" width="26" height="26">
