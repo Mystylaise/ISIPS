@@ -190,7 +190,7 @@
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG0A7BSnEh4Fo2AUDH0AystMDMTleQmoHgkscqOANgA9/GF4tIymLdAjUh0l9Sa+uAIAWRQF/A==
+   eJxjYBgFo4C+gI1O9gQh0eJUwqNgFIyCoQ9AeZmJgbg8LwHVI4FFbhTQBqCHPwyPltG0BXpEqqOk3sQXVwBGHwag
   </data>
  </layer>
  <layer name="outside_walls" width="26" height="26">
