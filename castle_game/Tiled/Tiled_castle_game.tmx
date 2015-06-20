@@ -30,20 +30,17 @@
  <tileset firstgid="10" name="panneau" tilewidth="84" tileheight="84">
   <image source="../textures/panneau.png" width="252" height="84"/>
  </tileset>
- <tileset firstgid="13" name="ladder" tilewidth="84" tileheight="336">
-  <image source="../textures/ladder.png" width="84" height="336"/>
- </tileset>
- <tileset firstgid="14" name="trone" tilewidth="252" tileheight="168">
+ <tileset firstgid="13" name="trone" tilewidth="252" tileheight="168">
   <image source="../textures/trone.png" width="252" height="168"/>
  </tileset>
- <tileset firstgid="15" name="drapeau" tilewidth="84" tileheight="84">
+ <tileset firstgid="14" name="drapeau" tilewidth="84" tileheight="84">
   <image source="../textures/drapeau.png" width="168" height="168"/>
  </tileset>
- <tileset firstgid="19" name="shield_sword" tilewidth="84" tileheight="84">
+ <tileset firstgid="18" name="shield_sword" tilewidth="84" tileheight="84">
   <image source="../textures/shield_sword.png" width="84" height="84"/>
  </tileset>
- <tileset firstgid="20" name="fleau" tilewidth="84" tileheight="84">
-  <image source="../textures/fleau.png" width="84" height="84"/>
+ <tileset firstgid="19" name="fleau" tilewidth="84" tileheight="84">
+  <image source="../textures/fleau.png" width="168" height="84"/>
  </tileset>
  <tileset firstgid="21" name="window" tilewidth="84" tileheight="84">
   <image source="../textures/window.png" width="84" height="168"/>
@@ -177,7 +174,13 @@
   <image source="../textures/plafond_trone.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
  <tileset firstgid="103" name="walls-oustide" tilewidth="84" tileheight="84">
-  <image source="../textures/walls-oustide.png" width="252" height="84"/>
+  <image source="../textures/walls-oustide.png" width="336" height="84"/>
+ </tileset>
+ <tileset firstgid="107" name="hall_floor" tilewidth="84" tileheight="84">
+  <image source="D:/castle_game/textures/hall_floor.png" width="336" height="84"/>
+ </tileset>
+ <tileset firstgid="111" name="ladder" tilewidth="84" tileheight="84">
+  <image source="D:/castle_game/textures/ladder.png" width="84" height="336"/>
  </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
@@ -191,12 +194,12 @@
  </layer>
  <layer name="inside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4CBgRGNHuqAVv7RQ6MpBfxIGB9A908AlWhq+4dYMNz9E0QleqDy5VDzjyYB+aHmH0IA3V5a0fQCw90/6OUSufRw9w8AMgATIw==
+   eJxjYBgFo4CBgRGNHuqAVv7RQ6MpBXxIGB9A908AlWhq+4dYMNz9E0QleqDy5VDzjyYB+aHmH0IA3V5a0fQCw90/6OUSufRw9w8AHNwTIA==
   </data>
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gI1O9gQj0ZJUwqNgFIyCoQ/SgZgJShPCGVA9mVjkRgFtAHKZK4WER8to2gJ9ItVRUm/iiysA8NEMBA==
+   eJxjYBgFo4C+gI1O9gQj0ZJUwqOAdiCLCngUjAJiQDoSTQhnQNVmYpEbBbQB2VCcB8RSSDgPSS4bBz8HiHOheBSQBvSJVEdJvYmvPgUAxBIYNg==
   </data>
  </layer>
  <layer name="outside_walls" width="26" height="26">
@@ -211,7 +214,7 @@
  </layer>
  <layer name="perso" width="26" height="26" opacity="0.99">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG2gHTCIgACU5qexPUJIbGEa2wUDfGh8DjrZOwpGwSigHeAFYk40MXx8SyQ+O60cNQrgABbG5gPqCvIAALlhARA=
+   eJxjYBgFo4C+gG2gHTCIAD+U5qOxPYJIbCEa2wUDvGh8DjrZOwpGwSigLeAkgW+JxGenmYtGAQzAwth8QF1BHgAAeSUA/g==
   </data>
  </layer>
  <layer name="Calque 8" width="26" height="26">
@@ -226,7 +229,7 @@
  </layer>
  <layer name="Calque 6" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGD5AHYlkolkPjI4vjUjvSgSgaXwSJLQyVF6aCPWIUytMCiAOxBBSPgqEFAKYsApY=
+   eJxjYBgFo2AUjALsIJ9O9hTRyZ7CYWbPcAQFQCwPxLJQLIfGRxZnwKGWGECvOMKXtkVoZI8ompwwElsIKi9EBXvECKglJE8rIAHFo2BoAQD8kwaK
   </data>
  </layer>
  <layer name="prison" width="26" height="26">
