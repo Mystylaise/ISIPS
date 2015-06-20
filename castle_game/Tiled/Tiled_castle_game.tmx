@@ -178,10 +178,10 @@
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG0A7BSnEh4Fo2AUDH0AystMDMTleQmoHgkscqOANgA9/GF4tIweHICcepOYuAIASDAF/A==
+   eJxjYBgFo4C+gG0A7BSnEh4Fo2AUDH0AystMDMTleQmoHgkscqOANgA9/GF4tIweHICSehNfXAEAQhQFzg==
   </data>
  </layer>
- <layer name="outside_walls" width="26" height="26" visible="0">
+ <layer name="outside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
    eJxjYBhegAVKM9HAbJiZzFB7mKCYGYmmlj0w82hlD7q5A20PLGzJpQnZQy0was+oPaP2jNozas+oPaP2UN8eAL1yAiY=
   </data>
