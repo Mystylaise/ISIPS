@@ -206,6 +206,9 @@
  <tileset firstgid="148" name="plateformel_boue" tilewidth="84" tileheight="84">
   <image source="../textures/plateformel_boue.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
+ <tileset firstgid="151" name="platform" tilewidth="1092" tileheight="252">
+  <image source="D:/castle_game/textures/platform.png" width="1092" height="252"/>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKDFsX9CY3gICSiouQ4AAG8tX98AKQ==
@@ -274,6 +277,11 @@
  <layer name="avt-trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AU0ALw4ZGrQGLzE1BLCqgB4lYouwqIK5HkBKlkBww0QekGIK5HEq/HVDoKRsEoGAWjYBTgBQCzOgSp
+  </data>
+ </layer>
+ <layer name="platform" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBTB9IF2wCgYBaNgFFAJAADhXgCY
   </data>
  </layer>
 </map>
