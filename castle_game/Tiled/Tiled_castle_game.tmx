@@ -275,7 +275,7 @@
  </layer>
  <layer name="salle_du_trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4g0wq4YUk2FkJxMZQdgUQl2NRA5KvgqpFBouItMMISpsDsSEQNwJxLRDrQ8UbgNgAiM2g7Hqo+GwgngPEc4m0xwuIm6HsECTxiVDxNqi4BZTdCsTzgHg+EC9gIBxuvkCcRybuBeI+KF6IhkfBKBgFAwNCCCsZBTQGCVA6EUonDZA7iAUAZWYjrA==
+   eJxjYBgFo2D4g0wq4YUk2FkJxMZQdgUQl2NRA5KvwiK+iEg7jKC0ORAbAnEjELcDsT5UvAGIDYDYDMquB+JqIJ4NxHOAeC6R9ngBcTOUHYImBxJvg4pbQNmtQDwPiOcD8QIGwuHmC8R5ZOJeIO6D4oVoeBSMglEwMAC9nBgF9AcJUDoRSicNkDuIBQDvXiMn
   </data>
  </layer>
  <layer name="cage" width="26" height="26">
@@ -285,7 +285,7 @@
  </layer>
  <layer name="avt-trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0ALw4pGrQmLzEVBLCqgD4nYouwaIq5HkBKhkBwy0QOkmIG5EEm/EonYUjIJRMApGwSjABwANlQS3
+   eJxjYBgFo2AU0ALw4pGrQmLzEVBLCqgF4joouwaIq5HkBKhkBwy0QOkmIG5EEm/EonYUjIJRMApGwSjABwDKKgSt
   </data>
  </layer>
  <layer name="platform" width="26" height="26">
