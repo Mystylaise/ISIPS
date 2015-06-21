@@ -183,7 +183,7 @@
   <image source="../textures/pillar_trone.png" trans="ff00ff" width="504" height="252"/>
  </tileset>
  <tileset firstgid="136" name="piques_hole" tilewidth="84" tileheight="84">
-  <image source="../textures/piques_hole.png" width="252" height="84"/>
+  <image source="../textures/piques_hole.png" width="84" height="84"/>
  </tileset>
  <tileset firstgid="139" name="tonneau_dark" tilewidth="84" tileheight="84">
   <image source="../textures/tonneau_dark.png" trans="ff00ff" width="84" height="84"/>
@@ -238,7 +238,7 @@
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxksRMO0tIceAGQPG53smQtlg2gJKmFs9ixEYo8C8kEuFfAoGAXEgCwkmhDOhqrNwSI3CmgPOoC4E4i7BtohIwDoEamOknoTX30KAPKKGkw=
+   eJxjYBgFgxksRMO0tIceAGQPG53smQtlg2gJKmFs9ixEYo8C8kEuFfAoGAXEgCwkmhDOhqrNwSI3CmgPOpDwKKAt0CNSHSX1Jr76FADs2hpJ
   </data>
  </layer>
  <layer name="outside_walls" width="26" height="26">
