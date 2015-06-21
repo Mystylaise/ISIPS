@@ -185,43 +185,46 @@
  <tileset firstgid="136" name="piques_hole" tilewidth="84" tileheight="84">
   <image source="../textures/piques_hole.png" width="84" height="84"/>
  </tileset>
- <tileset firstgid="139" name="tonneau_dark" tilewidth="84" tileheight="84">
+ <tileset firstgid="137" name="tonneau_dark" tilewidth="84" tileheight="84">
   <image source="../textures/tonneau_dark.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
- <tileset firstgid="140" name="sol_trone2" tilewidth="84" tileheight="84">
+ <tileset firstgid="138" name="sol_trone2" tilewidth="84" tileheight="84">
   <image source="../textures/sol_trone2.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="143" name="piques_v2" tilewidth="84" tileheight="84">
+ <tileset firstgid="141" name="piques_v2" tilewidth="84" tileheight="84">
   <image source="../textures/piques_v2.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="146" name="faux" tilewidth="84" tileheight="84">
+ <tileset firstgid="144" name="faux" tilewidth="84" tileheight="84">
   <image source="../textures/faux.png" trans="ff00ff" width="84" height="252"/>
  </tileset>
- <tileset firstgid="149" name="socle_faux" tilewidth="84" tileheight="84">
+ <tileset firstgid="147" name="socle_faux" tilewidth="84" tileheight="84">
   <image source="../textures/socle_faux.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
- <tileset firstgid="150" name="plateformel_boue" tilewidth="84" tileheight="84">
+ <tileset firstgid="148" name="plateformel_boue" tilewidth="84" tileheight="84">
   <image source="../textures/plateformel_boue.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="153" name="platform" tilewidth="1092" tileheight="252">
+ <tileset firstgid="151" name="platform" tilewidth="1092" tileheight="252">
   <image source="../textures/platform.png" width="1092" height="252"/>
  </tileset>
- <tileset firstgid="154" name="trone" tilewidth="84" tileheight="84">
+ <tileset firstgid="152" name="trone" tilewidth="84" tileheight="84">
   <image source="../textures/trone.png" trans="ff00ff" width="336" height="168"/>
  </tileset>
- <tileset firstgid="162" name="tiled_wall_after_trone" tilewidth="84" tileheight="84">
+ <tileset firstgid="160" name="tiled_wall_after_trone" tilewidth="84" tileheight="84">
   <image source="../textures/tiled_wall_after_trone.png" trans="ff00ff" width="168" height="168"/>
  </tileset>
- <tileset firstgid="166" name="door_prison" tilewidth="114" tileheight="168">
+ <tileset firstgid="164" name="door_prison" tilewidth="114" tileheight="168">
   <image source="../textures/door_prison.png" trans="ff00ff" width="114" height="168"/>
  </tileset>
- <tileset firstgid="167" name="stalactite" tilewidth="84" tileheight="84">
+ <tileset firstgid="165" name="stalactite" tilewidth="84" tileheight="84">
   <image source="../textures/stalactite.png" width="84" height="84"/>
  </tileset>
- <tileset firstgid="168" name="araignee" tilewidth="84" tileheight="84">
+ <tileset firstgid="166" name="araignee" tilewidth="84" tileheight="84">
   <image source="../textures/araignee.png" trans="ff00ff" width="252" height="336"/>
  </tileset>
- <layer name="Calque 10" width="26" height="26" visible="0">
+ <tileset firstgid="178" name="door-volante" tilewidth="336" tileheight="252">
+  <image source="../textures/door-volante.png" width="336" height="252"/>
+ </tileset>
+ <layer name="Calque 10" width="26" height="26">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKC1sX9DY3gICSiouQ4AAG8tV1cAKA==
   </data>
@@ -238,7 +241,7 @@
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxksRMO0tIceAGQPG53smQtlg2gJKmFs9ixEYo8C8kEuFfAoGAXEgCwkmhDOhqrNwSI3CmgPOpDwKKAt0CNSHSX1Jr76FADs2hpJ
+   eJxjYBgFgxnMR8O0tIceAGQPG53smQ1lg2gJKmFs9sxHYo8C8kEuFfAoGAXEgCwkmhDOhqrNwSI3CmgPOpDwKKAt0CNSHSX1Jr76FAAqShox
   </data>
  </layer>
  <layer name="outside_walls" width="26" height="26">
@@ -248,12 +251,12 @@
  </layer>
  <layer name="Calque 5" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALcgItK5nRTyZxRMHwB90A7YBTQDFCrHBkFtAMDHUcA5ukAtQ==
+   eJxjYBgFo2AUjALcgItK5nRSyZxRMHwB90A7YBQMabBpoB0wxAG1ynpyAQD8yAFb
   </data>
  </layer>
  <layer name="perso" width="26" height="26" opacity="0.99">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG2gHTDCgeAA2csxQPaOglEwCqgLOEngWyPx2WnmIvLACiLVrcejdjWV3EJtYDnQDiADAACpEwNp
+   eJxjYBgFo4C+gG2gHTDCgeAA2csxQPaOglEwCqgLOEngW2ORHyxgGZHq1uJRu5JKbqE2sBxoB5ABAI7jA1o=
   </data>
  </layer>
  <layer name="Calque 8" width="26" height="26">
@@ -273,22 +276,22 @@
  </layer>
  <layer name="prison" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJztjUsKgCAURV1ORRtpA5Z9Rpn76bOG1tkNXiBiIdSgwT1wuPo+qhQhhBBCyD8Y4QQtdHJ2opW+P3OlDWa/ZHmxmz3UwlwT92NUcPfuA5xvcoN5sF/AMuEfA2tJDRtJLXXt9U5b2MHemzeRdw/PTRRY
+   eJztjUsKgCAURV1ORRtpA5Z9Rpnb6bOGFtoNXiBiIdSgwT1wuPo+qhQhhBBCyD8Y4QQtdHJ2opW+P3OlDWa/ZHmxmz3UwlwT92NUcPfuA5xvcoN5sF/AMuEfA2tJDRtJLXXt9U5b2MHemzeRdw/EFRRK
   </data>
  </layer>
  <layer name="salle_du_trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4g0wq4YUk2FkJxMZQdgUQl2NRA5KvwiK+iEg7jKC0ORAbAnEjELcDsT5UvAGIDYDYDMquh4rPBuI5QDyXSHu8gLgZyg5BkwOJt0HFLaDsViCeB8TzgXgBA+Fw8wXiPDJxLxD3QfFCNDwKRsEooB9ALxtGwcCCBCidCKWTBsgdxAIAxi0irA==
+   eJxjYBgFo2D4g0wq4fkk2FkJxMZQdgUQl2NRA5KvwiK+gEg7jKC0ORAbAnEjELcDsT5UvAGIDYDYDMquh4rPBOJZQDybSHu8gLgZyg5BkwOJt0HFLaDsViCeA8RzgXgeA+Fw8wXiPDJxNxD3QPF8NDwKRsEooB9ALxtGwcCCBCidCKWTBsgdxAIAABUijA==
   </data>
  </layer>
  <layer name="araignée-prison" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBfQAK9H4qwbEFYMPAAByxwFU
+   eJxjYBgFo2AUjIJRMApGwSgYBfQAy9H4KwbEFYMPAABuhwFQ
   </data>
  </layer>
  <layer name="cage" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4A+YM1AO2CIAh0am78OSm/AIldERXs2AbEWDrlSKtqDD5QMM3uGIyimkz30iiN6pe3hZE8eFBeiiRciyeXh4OcDcQEUUxNMpbJ5tADI5asLEMdD2bjoaUA8HYhn0N5pRAEAjncR7w==
+   eJxjYBgFo4A+YNVAO2CIAh0am78GSq/DIldERXs2ALEWDrlSKtqDD5QMM3uGIyimkz30iiN6pe3hZE8eFBeiiRciyeXh4OcDcQEUUxNMprJ5tADI5asLEMdD2bjoKUA8FYin0d5pRAEAUbcR3w==
   </data>
  </layer>
  <layer name="avt-trone" width="26" height="26">
@@ -298,7 +301,7 @@
  </layer>
  <layer name="platform" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKRBZaj0ejiuPiDDcwcaAeMglEwCkYBlQAAVYcDNg==
+   eJxjYBgFo2AUjIKRBZai0ejiuPiDDUwfaAeMglEwCkYBlQAAH7cDLA==
   </data>
  </layer>
 </map>
