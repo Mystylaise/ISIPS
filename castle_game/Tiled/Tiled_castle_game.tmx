@@ -224,6 +224,9 @@
  <tileset firstgid="179" name="door-volante" tilewidth="336" tileheight="252">
   <image source="../textures/door-volante.png" width="336" height="252"/>
  </tileset>
+ <tileset firstgid="180" name="plateforme_cage" tilewidth="84" tileheight="84">
+  <image source="../textures/plateforme_cage.png" trans="ff00ff" width="84" height="84"/>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKDFsX9CY3gICSiouQ4AAG8tX98AKQ==
@@ -291,7 +294,7 @@
  </layer>
  <layer name="cage" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4A+YPVAO2CIAl0am78WSq/HIldMRXs2ArE2DrkyKtqDD5QOM3uGIyihkz30iiN6pe3hZE8+FBehiRchyeXj4BcAcSEUUxNMobJ5tADI5asrECdA2bjoqUA8DYin09ZZRAMAw6cSBw==
+   eJxjYBgFo4A+YPVAO4CKYAsd7dKlsflrofR6LHLFVLRnIxBrM2APuzIq2oMPlA4ze4YjKKGTPfSKI3ql7eFkTz4UF6GJFyHJ5ePgFwBxIRRTE0yhsnm0ANpIbFcgToCycdFTgXgaEE+nrbOIBgA5zRNv
   </data>
  </layer>
  <layer name="avt-trone" width="26" height="26">
