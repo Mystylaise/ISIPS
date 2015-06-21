@@ -207,7 +207,7 @@
   <image source="../textures/plateformel_boue.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
  <tileset firstgid="151" name="platform" tilewidth="1092" tileheight="252">
-  <image source="D:/castle_game/textures/platform.png" width="1092" height="252"/>
+  <image source="../textures/platform.png" width="1092" height="252"/>
  </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
