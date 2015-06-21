@@ -37,33 +37,33 @@
   <image source="../textures/shield_sword.png" width="84" height="84"/>
  </tileset>
  <tileset firstgid="18" name="fleau" tilewidth="84" tileheight="84">
-  <image source="../textures/fleau.png" width="168" height="84"/>
+  <image source="../textures/fleau.png" width="84" height="252"/>
  </tileset>
- <tileset firstgid="20" name="window" tilewidth="84" tileheight="84">
+ <tileset firstgid="21" name="window" tilewidth="84" tileheight="84">
   <image source="../textures/window.png" width="84" height="168"/>
  </tileset>
- <tileset firstgid="22" name="staircase" tilewidth="84" tileheight="84">
+ <tileset firstgid="23" name="staircase" tilewidth="84" tileheight="84">
   <image source="../textures/staircase.png" width="168" height="84"/>
  </tileset>
- <tileset firstgid="24" name="floor" tilewidth="84" tileheight="84">
+ <tileset firstgid="25" name="floor" tilewidth="84" tileheight="84">
   <image source="../textures/floor.png" width="168" height="168"/>
  </tileset>
- <tileset firstgid="28" name="balustrade" tilewidth="84" tileheight="84">
+ <tileset firstgid="29" name="balustrade" tilewidth="84" tileheight="84">
   <image source="../textures/balustrade.png" width="252" height="84"/>
  </tileset>
- <tileset firstgid="31" name="arches" tilewidth="84" tileheight="84">
+ <tileset firstgid="32" name="arches" tilewidth="84" tileheight="84">
   <image source="../textures/arches.png" width="336" height="168"/>
  </tileset>
- <tileset firstgid="39" name="sky" tilewidth="2184" tileheight="588">
+ <tileset firstgid="40" name="sky" tilewidth="2184" tileheight="588">
   <image source="../textures/sky.jpg" width="2184" height="588"/>
  </tileset>
- <tileset firstgid="40" name="torche" tilewidth="84" tileheight="84">
+ <tileset firstgid="41" name="torche" tilewidth="84" tileheight="84">
   <image source="../textures/torche.png" width="84" height="84"/>
  </tileset>
- <tileset firstgid="41" name="egout" tilewidth="84" tileheight="84">
+ <tileset firstgid="42" name="egout" tilewidth="84" tileheight="84">
   <image source="../textures/egout.png" trans="ff00ff" width="336" height="84"/>
  </tileset>
- <tileset firstgid="45" name="tile_fond" tilewidth="168" tileheight="168">
+ <tileset firstgid="46" name="tile_fond" tilewidth="168" tileheight="168">
   <tile id="0">
    <image width="168" height="168" source="../textures/tiled_wall_prison.jpg"/>
   </tile>
@@ -71,13 +71,13 @@
    <image width="168" height="168" source="../textures/porte_prison.png"/>
   </tile>
  </tileset>
- <tileset firstgid="47" name="tete_chasse" tilewidth="84" tileheight="84">
+ <tileset firstgid="48" name="tete_chasse" tilewidth="84" tileheight="84">
   <image source="../textures/tete_chasse.png" trans="ff00ff" width="168" height="168"/>
  </tileset>
- <tileset firstgid="51" name="chandelier" tilewidth="84" tileheight="84">
+ <tileset firstgid="52" name="chandelier" tilewidth="84" tileheight="84">
   <image source="../textures/chandelier.png" trans="ff00ff" width="168" height="252"/>
  </tileset>
- <tileset firstgid="57" name="perso" tilewidth="86" tileheight="86">
+ <tileset firstgid="58" name="perso" tilewidth="86" tileheight="86">
   <tile id="0">
    <image width="86" height="86" source="../textures/Personnage/idle_D.png"/>
   </tile>
@@ -109,7 +109,7 @@
    <image width="86" height="86" source="../textures/Personnage/walk_08.png"/>
   </tile>
  </tileset>
- <tileset firstgid="67" name="prison64" tilewidth="84" tileheight="128">
+ <tileset firstgid="68" name="prison64" tilewidth="84" tileheight="128">
   <tile id="0">
    <image width="64" height="64" source="../textures/64x64/piques.png"/>
   </tile>
@@ -129,179 +129,179 @@
    <image width="84" height="84" source="../textures/sol_prison.png"/>
   </tile>
  </tileset>
- <tileset firstgid="73" name="coffre" tilewidth="84" tileheight="84">
+ <tileset firstgid="74" name="coffre" tilewidth="84" tileheight="84">
   <image source="../textures/coffre.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="76" name="sol_trone" tilewidth="84" tileheight="84">
+ <tileset firstgid="77" name="sol_trone" tilewidth="84" tileheight="84">
   <image source="../textures/sol_trone.png" trans="ff00ff" width="588" height="84"/>
  </tileset>
- <tileset firstgid="83" name="tile_wall_2" tilewidth="168" tileheight="168">
+ <tileset firstgid="84" name="tile_wall_2" tilewidth="168" tileheight="168">
   <tile id="0">
    <image width="168" height="168" source="../textures/tiled_wall.jpg"/>
   </tile>
  </tileset>
- <tileset firstgid="84" name="decor_epee" tilewidth="84" tileheight="84">
+ <tileset firstgid="85" name="decor_epee" tilewidth="84" tileheight="84">
   <image source="../textures/decor_epee.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
- <tileset firstgid="85" name="tiled_outside_wall" tilewidth="168" tileheight="168">
+ <tileset firstgid="86" name="tiled_outside_wall" tilewidth="168" tileheight="168">
   <image source="../textures/tiled_outside_wall.jpg" width="168" height="168"/>
  </tileset>
- <tileset firstgid="86" name="sol_prison_dark" tilewidth="84" tileheight="84">
+ <tileset firstgid="87" name="sol_prison_dark" tilewidth="84" tileheight="84">
   <image source="../textures/sol_prison_dark.png" trans="ff00ff" width="336" height="84"/>
  </tileset>
- <tileset firstgid="90" name="sol_boue" tilewidth="84" tileheight="84">
+ <tileset firstgid="91" name="sol_boue" tilewidth="84" tileheight="84">
   <image source="../textures/sol_boue.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="93" name="prison" tilewidth="84" tileheight="126">
+ <tileset firstgid="94" name="prison" tilewidth="84" tileheight="126">
   <image source="../textures/prison.png" trans="ff00ff" width="252" height="126"/>
  </tileset>
- <tileset firstgid="96" name="prison2" tilewidth="84" tileheight="122">
+ <tileset firstgid="97" name="prison2" tilewidth="84" tileheight="122">
   <image source="../textures/prison2.png" trans="ff00ff" width="252" height="126"/>
  </tileset>
- <tileset firstgid="99" name="plafond_prison" tilewidth="84" tileheight="84">
+ <tileset firstgid="100" name="plafond_prison" tilewidth="84" tileheight="84">
   <image source="../textures/plafond_prison.png" trans="ff00ff" width="336" height="84"/>
  </tileset>
- <tileset firstgid="103" name="staircase_down" tilewidth="504" tileheight="420">
+ <tileset firstgid="104" name="staircase_down" tilewidth="504" tileheight="420">
   <image source="../textures/staircase_down.png" width="504" height="420"/>
  </tileset>
- <tileset firstgid="104" name="mirador" tilewidth="84" tileheight="84">
+ <tileset firstgid="105" name="mirador" tilewidth="84" tileheight="84">
   <image source="../textures/mirador.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
- <tileset firstgid="105" name="plafond_trone" tilewidth="84" tileheight="84">
+ <tileset firstgid="106" name="plafond_trone" tilewidth="84" tileheight="84">
   <image source="../textures/plafond_trone.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
- <tileset firstgid="106" name="walls-oustide" tilewidth="84" tileheight="84">
+ <tileset firstgid="107" name="walls-oustide" tilewidth="84" tileheight="84">
   <image source="../textures/walls-oustide.png" width="336" height="84"/>
  </tileset>
- <tileset firstgid="110" name="hall_floor" tilewidth="84" tileheight="84">
+ <tileset firstgid="111" name="hall_floor" tilewidth="84" tileheight="84">
   <image source="../textures/hall_floor.png" width="336" height="84"/>
  </tileset>
- <tileset firstgid="114" name="ladder" tilewidth="84" tileheight="84">
+ <tileset firstgid="115" name="ladder" tilewidth="84" tileheight="84">
   <image source="../textures/ladder.png" width="84" height="336"/>
  </tileset>
- <tileset firstgid="118" name="pillar_trone" tilewidth="84" tileheight="84">
+ <tileset firstgid="119" name="pillar_trone" tilewidth="84" tileheight="84">
   <image source="../textures/pillar_trone.png" trans="ff00ff" width="504" height="252"/>
  </tileset>
- <tileset firstgid="136" name="piques_hole" tilewidth="84" tileheight="84">
+ <tileset firstgid="137" name="piques_hole" tilewidth="84" tileheight="84">
   <image source="../textures/piques_hole.png" width="84" height="84"/>
  </tileset>
- <tileset firstgid="137" name="tonneau_dark" tilewidth="84" tileheight="84">
+ <tileset firstgid="138" name="tonneau_dark" tilewidth="84" tileheight="84">
   <image source="../textures/tonneau_dark.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
- <tileset firstgid="138" name="sol_trone2" tilewidth="84" tileheight="84">
+ <tileset firstgid="139" name="sol_trone2" tilewidth="84" tileheight="84">
   <image source="../textures/sol_trone2.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="141" name="piques_v2" tilewidth="84" tileheight="84">
+ <tileset firstgid="142" name="piques_v2" tilewidth="84" tileheight="84">
   <image source="../textures/piques_v2.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="144" name="faux" tilewidth="84" tileheight="84">
+ <tileset firstgid="145" name="faux" tilewidth="84" tileheight="84">
   <image source="../textures/faux.png" trans="ff00ff" width="84" height="252"/>
  </tileset>
- <tileset firstgid="147" name="socle_faux" tilewidth="84" tileheight="84">
+ <tileset firstgid="148" name="socle_faux" tilewidth="84" tileheight="84">
   <image source="../textures/socle_faux.png" trans="ff00ff" width="84" height="84"/>
  </tileset>
- <tileset firstgid="148" name="plateformel_boue" tilewidth="84" tileheight="84">
+ <tileset firstgid="149" name="plateformel_boue" tilewidth="84" tileheight="84">
   <image source="../textures/plateformel_boue.png" trans="ff00ff" width="252" height="84"/>
  </tileset>
- <tileset firstgid="151" name="platform" tilewidth="1092" tileheight="252">
+ <tileset firstgid="152" name="platform" tilewidth="1092" tileheight="252">
   <image source="../textures/platform.png" width="1092" height="252"/>
  </tileset>
- <tileset firstgid="152" name="trone" tilewidth="84" tileheight="84">
+ <tileset firstgid="153" name="trone" tilewidth="84" tileheight="84">
   <image source="../textures/trone.png" trans="ff00ff" width="336" height="168"/>
  </tileset>
- <tileset firstgid="160" name="tiled_wall_after_trone" tilewidth="84" tileheight="84">
+ <tileset firstgid="161" name="tiled_wall_after_trone" tilewidth="84" tileheight="84">
   <image source="../textures/tiled_wall_after_trone.png" trans="ff00ff" width="168" height="168"/>
  </tileset>
- <tileset firstgid="164" name="door_prison" tilewidth="114" tileheight="168">
+ <tileset firstgid="165" name="door_prison" tilewidth="114" tileheight="168">
   <image source="../textures/door_prison.png" trans="ff00ff" width="114" height="168"/>
  </tileset>
- <tileset firstgid="165" name="stalactite" tilewidth="84" tileheight="84">
+ <tileset firstgid="166" name="stalactite" tilewidth="84" tileheight="84">
   <image source="../textures/stalactite.png" width="84" height="84"/>
  </tileset>
- <tileset firstgid="166" name="araignee" tilewidth="84" tileheight="84">
+ <tileset firstgid="167" name="araignee" tilewidth="84" tileheight="84">
   <image source="../textures/araignee.png" trans="ff00ff" width="252" height="336"/>
  </tileset>
- <tileset firstgid="178" name="door-volante" tilewidth="336" tileheight="252">
+ <tileset firstgid="179" name="door-volante" tilewidth="336" tileheight="252">
   <image source="../textures/door-volante.png" width="336" height="252"/>
  </tileset>
- <layer name="Calque 10" width="26" height="26">
+ <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzjEBAAAIwKC1sX9DY3gICSiouQ4AAG8tV1cAKA==
+   eJztzjEBAAAIwKDFsX9CY3gICSiouQ4AAG8tX98AKQ==
   </data>
  </layer>
  <layer name="sky_test" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJztzQENAAAIwKC3sX9Dc+igAAU1zx4A4I4FlEYATw==
+   eJztzQENAAAIwKDHsX9Cc+igAAU1zx4A4I4FpO4AUQ==
   </data>
  </layer>
  <layer name="inside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4CBgRGNHmpAF42mlX/Q7aEU8CJhfADdP8FUoqntH2LBcPdPKJXogcqXQ80/GgTkh5p/CAF0e2lF0wsMd/+gl0vk0sPdPwA8QxPl
+   eJxjYBgFo4CBgRGNHmpAD42mlX/Q7aEU8CJhfADdPyFUoqntH2LBcPdPGJXogcqXQ80/mgTkh5p/CAF0e2lF0wsMd/+gl0vk0sPdPwBnYhQt
   </data>
  </layer>
  <layer name="floor" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxnMR8O0tIceAGQPG53smQ1lg2gJKmFs9sxHYo8C8kEuFfAoGAXEgCwkmhDOhqrNwSI3CmgPOpDwKKAt0CNSHSX1Jr76FAAqShox
+   eJxjYBgFgxksQMO0tIceAGQPG53smQNlg2hJKmFs9ixAYo8C8kEeFfAoGAXEgGwkmhDOgarNxSI3CmgPOpHwKKAt0CdSHSX1Jr76FAC4GRqD
   </data>
  </layer>
  <layer name="outside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBhegAVKM9HAbJiZzFB7mKCYGYmmlj0w82hlD7q5A21PBlQ9uTQhe6gFRu0ZtWfUnlF7Ru0ZtWfUHurbAwD/KQVW
+   eJxjYBhegAVKM9HAbJiZzFB7mKCYGYmmlj0w82hlD7q5A21PJlQ9uTQhe6gFRu0ZtWfUnlF7Ru0ZtWfUHurbAwA+mAVe
   </data>
  </layer>
  <layer name="Calque 5" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALcgItK5nRSyZxRMHwB90A7YBQMabBpoB0wxAG1ynpyAQD8yAFb
+   eJxjYBgFo2AUjALcgItK5nRRyZxRMHwB90A7YBQMabB5oB0wxAG1ynpyAQAEuwFd
   </data>
  </layer>
  <layer name="perso" width="26" height="26" opacity="0.99">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG2gHTDCgeAA2csxQPaOglEwCqgLOEngW2ORHyxgGZHq1uJRu5JKbqE2sBxoB5ABAI7jA1o=
+   eJxjYBgFo4C+gG2gHTDCgeAA2csxQPaOglEwCqgLOEng22CRHyxgOZHq1uFRu4pKbqE2sBpoB5ABAJdrA2A=
   </data>
  </layer>
  <layer name="Calque 8" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJztyLkNACAMwMBsws/+I+IJQkGHfJIbR0iSdFeoUqOevFeDJi3ayZP0jwPgmAIp
+   eJztyLkNACAMwMCMws/+G+IJQkGHfJIbR0iSdFeoUqOevFeDJi3ayZP0jwMiZwI5
   </data>
  </layer>
  <layer name="Calque 7" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGL9CA0qxIYuk41HnT3jlDCmig0aNgFAxWAADHTAFY
+   eJxjYBgFo2AUjIJRMAoGL9CE0qxIYhk41PnQ3jlDCmii0bQEoXSwYxQMXwAAmyMBsw==
   </data>
  </layer>
  <layer name="Calque 6" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGD5ADYhkolkXjI4vjUjtUgDCNzBVB4wshsQWh8oJUsEeUQnlaAXEoHgVDCwAAYbwCdw==
+   eJxjYBgFo2AUjIJRMAoGD5AHYlkolkPjI4vjUjtUgBCNzBVF4wsjsQWh8oJUsEcMjS9CQJ5eQAKKR8HQAgDVYAKg
   </data>
  </layer>
  <layer name="prison" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJztjUsKgCAURV1ORRtpA5Z9Rpnb6bOGFtoNXiBiIdSgwT1wuPo+qhQhhBBCyD8Y4QQtdHJ2opW+P3OlDWa/ZHmxmz3UwlwT92NUcPfuA5xvcoN5sF/AMuEfA2tJDRtJLXXt9U5b2MHemzeRdw/EFRRK
+   eJxjYBgFo2AUjIJRMApGAb3BlIF2wCAFKUCcBsSpQJwOZadDcSpUHlkNjE5FU0tNMJECvZp4xNDpSUTqxwa8gHgpEj8OiCfgoCcDsRaafm0g1iXCniggjoDS4UAcCaXDoeLhSHIgHA3EMUAci6Q+Cou5AL33FRY=
   </data>
  </layer>
  <layer name="salle_du_trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4g0wq4fkk2FkJxMZQdgUQl2NRA5KvwiK+gEg7jKC0ORAbAnEjELcDsT5UvAGIDYDYDMquh4rPBOJZQDybSHu8gLgZyg5BkwOJt0HFLaDsViCeA8RzgXgeA+Fw8wXiPDJxNxD3QPF8NDwKRsEooB9ALxtGwcCCBCidCKWTBsgdxAIAABUijA==
+   eJxjYBgFo2D4gywq4QUk2FkFxCZQdiUQV2BRA5KvxiK+kEg7jKG0BRAbAXETEHcAsQFUvBGIDYHYHMpugIrPAuLZQDyHSHu8gbgFyg5FkwOJt0PFLaHsNiCeC8TzgHg+A+Fw8wPifDJxDxD3QvECNDwKRsEoGAUjFSRC6SQonTxQDiESAAA1wCKG
   </data>
  </layer>
  <layer name="araignée-prison" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBfQAy9H4KwbEFYMPAABuhwFQ
+   eJxjYBgFo2AUjIJRMApGwSgYBfQAK9D4KwfEFYMPAABwpwFS
   </data>
  </layer>
  <layer name="cage" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4A+YNVAO2CIAh0am78GSq/DIldERXs2ALEWDrlSKtqDD5QMM3uGIyimkz30iiN6pe3hZE8eFBeiiRciyeXh4OcDcQEUUxNMprJ5tADI5asLEMdD2bjoKUA8FYin0d5pRAEAUbcR3w==
+   eJxjYBgFo4A+YPVAO2CIAl0am78WSq/HIldMRXs2ArE2DrkyKtqDD5QOM3uGIyihkz30iiN6pe3hZE8+FBehiRchyeXj4BcAcSEUUxNMobJ5tADI5asrECdA2bjoqUA8DYin09ZZRAMAw6cSBw==
   </data>
  </layer>
  <layer name="avt-trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0ALw4pGrQmLzEVBLCqgF4joouwaIq5HkBKhkBwy0QOkmIG5EEm/EonYUjIJRMApGwSjABwDKKgSt
+   eJxjYBgFo2AU0ALw4pGrRmLzEVBLCqgD4noouxaIa5DkBKhkBwy0QulmIG5CEm/ConYUjIJRMApGwSjABwAFVQS2
   </data>
  </layer>
  <layer name="platform" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKRBZai0ejiuPiDDUwfaAeMglEwCkYBlQAAH7cDLA==
+   eJxjYBgFo2AUjIKRBZah0ejiuPiDDcwYaAeMglEwCkYBlQAAOp8DMQ==
   </data>
  </layer>
 </map>
