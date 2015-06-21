@@ -215,6 +215,9 @@
  <tileset firstgid="166" name="door_prison" tilewidth="114" tileheight="168">
   <image source="../textures/door_prison.png" trans="ff00ff" width="114" height="168"/>
  </tileset>
+ <tileset firstgid="167" name="stalactite" tilewidth="84" tileheight="84">
+  <image source="../textures/stalactite.png" width="84" height="84"/>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKC1sX9DY3gICSiouQ4AAG8tV1cAKA==
@@ -287,7 +290,7 @@
  </layer>
  <layer name="platform" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMBTBzIF2wCgYBaNgFFAJAADq/gCa
+   eJxjYBgFo2AUjIKRBZaj0ejiuPiDDcwcaAeMglEwCkYBlQAAVYcDNg==
   </data>
  </layer>
 </map>
