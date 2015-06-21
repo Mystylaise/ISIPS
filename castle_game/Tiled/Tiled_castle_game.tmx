@@ -197,7 +197,7 @@
  </layer>
  <layer name="inside_walls" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4CBgRGNHuqAVv7RQ6MpBXxIGB9A908AlWhq+4dYMNz9E0QleqDy5VDzjyYB+aHmH0IA3V5a0fQCw90/6OUSufRw9w8AHNwTIA==
+   eJxjYBgFo4CBgRGNHmpAD42mlX/Q7aEU8CFhfADdPwFUoqntH2LBcPdPEJXogcqXQ80/mgTkh5p/CAF0e2lF0wsMd/+gl0vk0sPdPwDnahN8
   </data>
  </layer>
  <layer name="floor" width="26" height="26">
