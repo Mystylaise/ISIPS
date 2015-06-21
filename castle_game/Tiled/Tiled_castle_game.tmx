@@ -182,6 +182,9 @@
  <tileset firstgid="111" name="ladder" tilewidth="84" tileheight="84">
   <image source="../textures/ladder.png" width="84" height="336"/>
  </tileset>
+ <tileset firstgid="115" name="pillar_trone" tilewidth="84" tileheight="84">
+  <image source="../textures/pillar_trone.png" trans="ff00ff" width="504" height="252"/>
+ </tileset>
  <layer name="Calque 10" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAIwKDFsX9CY3gICSiouQ4AAG8tX98AKQ==
@@ -202,7 +205,7 @@
    eJxjYBgFo4C+gI1O9gQj0ZJUwqOAdiCLCngUjAJiQDoSTQhnQNVmYpEbBbQHUkh4FNAW6BOpjpJ6E199CgA4nRHg
   </data>
  </layer>
- <layer name="outside_walls" width="26" height="26">
+ <layer name="outside_walls" width="26" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBhegAVKM9HAbJiZzFB7mKCYGYmmlj0w82hlD7q5A21PKlQ9uTQhe6gFRu0ZtWfUnlF7Ru0ZtWfUHurbAwBBCQU+
   </data>
@@ -214,7 +217,7 @@
  </layer>
  <layer name="perso" width="26" height="26" opacity="0.99">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+gG2gHTCIAD+U5qOxPYJIbCEa2wUDvGh8DjrZOwpGwSigLeAkgW+JxGenmYtGAQzAwth8QF1BHgAAeSUA/g==
+   eJxjYBgFo4C+gG2gHTDCgRCd7OFF43PQyd5RMApGAW0BJwl8SyQ+O81cNApgABbG5gPqCvIAADuOANA=
   </data>
  </layer>
  <layer name="Calque 8" width="26" height="26">
@@ -224,7 +227,7 @@
  </layer>
  <layer name="Calque 7" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGL9CE0qxIYil41I0CBNBEo0fBKBisAACwpQEO
+   eJxjYBgFo2AUjIJRMAoGL9CE0qxIYik41HnQ3jlDCmii0aNgFAxWAAC9lAFW
   </data>
  </layer>
  <layer name="Calque 6" width="26" height="26">
@@ -234,17 +237,22 @@
  </layer>
  <layer name="prison" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJztjEsKgDAMRHsdFU8TrZ+Vbe9/B0eIEEopWXYxDx4T8guBEEIIIWQMHphhgkXroiad250/U7U7ClOnV6f33sPdyQXOjZvV8TfCTVPgrinaFzP7POAJL7MfG39f6lUPjQ==
+   eJxjYBgFo2AUjIJRMApGwSgYHCABiJOAOBGIk6HsZChOhMojq4HRiWhqBwvQxCOGThOrHxtwR+NH4aG1gVgLixm6RNgTBsQhUDoYiEOhdDBUPBhJDoTDgTgCiCOR1IdhMRcAH6QP1A==
   </data>
  </layer>
  <layer name="salle_du_trone" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4gzQqYVKBCZXU4ALGUNoMiI2QxA2Q2IZQ2pQCe0gBZmTo8QJiTyD2B2JvErEPEPsCsR+lDh8Fo2AUUA0EDrQDRgFDLJSOg9LxA+UQIgEA7mYPtA==
+   eJxjYBgFo2D4gzQqYVJAGRCbQNmlQFyCRQ1IvhyqlhxgDKXNgNgIiOuAuAqIDaDitUBsCMSmUHYNmfZ4AHEDDjmQeDOSO0DsJhLN9wJiTyD2B2JvErEPEPsCsR+Jdo6CUTAKaAcCB9oBo4AhFkrHQen4gXIIkQAAQIsXPg==
   </data>
  </layer>
  <layer name="cage" width="26" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALsIJ9O9hTRyZ7CYWbPcAQFdLKHXnFEr7Q9nOzJhuI8NPE8JLlsHPwcIM6F4pEOYgjQgw0AAMq3C8E=
+   eJxjYBgFo2AUDGagO4B251PZPG0c4kVUtgcXKBxm9gxHUEAne+gVR/RK28PJnmwozkMTz0OSy8bBzwHiXCgeaQC5rnAC4hgoGxc92AAAWegMiA==
+  </data>
+ </layer>
+ <layer name="avt-trone" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0ALw4ZErR2LzE1BLCqgG4hYouxKIK5DkBKlkBww0Qul6IK5DEq/DonYUjIJRMApGwSjABwB4HgSg
   </data>
  </layer>
 </map>
