@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="84" tileheight="84" nextobjectid="1">
+ <tileset firstgid="1" name="sky" tilewidth="2184" tileheight="588">
+  <image source="../texture/sky.jpg" width="2184" height="588"/>
+ </tileset>
+ <tileset firstgid="2" name="tileset_floor_castleout" tilewidth="84" tileheight="84">
+  <image source="../texture/tileset_floor_castleout.png" width="336" height="672"/>
+ </tileset>
+ <tileset firstgid="34" name="tileset_wall_inside" tilewidth="168" tileheight="168">
+  <image source="../texture/tileset_wall_inside.png" width="504" height="336"/>
+ </tileset>
+ <tileset firstgid="40" name="sol_prison_dark" tilewidth="84" tileheight="84">
+  <image source="../texture/sol_prison_dark.png" width="336" height="84"/>
+ </tileset>
+ <tileset firstgid="44" name="tileset_prisoncell" tilewidth="84" tileheight="126">
+  <image source="../texture/tileset_prisoncell.png" width="252" height="252"/>
+ </tileset>
+ <tileset firstgid="50" name="tileset_props" tilewidth="84" tileheight="84">
+  <image source="../texture/tileset_props.png" width="504" height="336"/>
+ </tileset>
+ <tileset firstgid="74" name="araignee" tilewidth="84" tileheight="84">
+  <image source="../texture/araignee.png" width="252" height="336"/>
+ </tileset>
+ <tileset firstgid="86" name="pillar_trone" tilewidth="84" tileheight="84">
+  <image source="../texture/pillar_trone.png" width="504" height="252"/>
+ </tileset>
+ <tileset firstgid="104" name="tileset_massive_props" tilewidth="84" tileheight="84">
+  <image source="../texture/tileset_massive_props.png" width="504" height="420"/>
+ </tileset>
+ <tileset firstgid="134" name="trone" tilewidth="84" tileheight="84">
+  <image source="../texture/trone.png" width="336" height="168"/>
+ </tileset>
+ <tileset firstgid="142" name="apres_trone" tilewidth="252" tileheight="504">
+  <image source="../texture/apres_trone.png" width="252" height="504"/>
+ </tileset>
+ <tileset firstgid="143" name="staircase_down" tilewidth="504" tileheight="420">
+  <image source="../texture/staircase_down.png" width="504" height="420"/>
+ </tileset>
+ <tileset firstgid="144" name="platform" tilewidth="1092" tileheight="252">
+  <image source="../texture/platform.png" width="1092" height="252"/>
+ </tileset>
+ <tileset firstgid="145" name="door_prison" tilewidth="114" tileheight="168">
+  <image source="../texture/door_prison.png" width="114" height="168"/>
+ </tileset>
+ <tileset firstgid="146" name="door-volante" tilewidth="336" tileheight="252">
+  <image source="../texture/door-volante.png" width="336" height="252"/>
+ </tileset>
+ <tileset firstgid="147" name="princess" tilewidth="252" tileheight="336">
+  <image source="../texture/princess.png" width="252" height="336"/>
+ </tileset>
+ <tileset firstgid="148" name="tileset_platform" tilewidth="84" tileheight="84">
+  <image source="../texture/tileset_platform.png" width="252" height="252"/>
+ </tileset>
+ <tileset firstgid="157" name="15_trap" tilewidth="84" tileheight="84">
+  <image source="../texture/tileset_weapon.png" width="168" height="252"/>
+ </tileset>
+ <layer name="00_Ciel" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6DZv7QtpgckIIGeuQ4AAO8sErAAAg==
+  </data>
+ </layer>
+ <layer name="02_mirador" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+gJkOdrCP2jOo7WGjEh4Fo2AUjIJRMApGAfUBAK8IAJg=
+  </data>
+ </layer>
+ <layer name="03_briques_interrieur" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+gIVOdgxle5TRaGrZo4ZGowN6+YdagJB/aAXQ/UMtWhVK08M/yHbQyj8DFT9KdKLpBUb9Qx5NL0Cr/EOrcpMQGG7+QS+HaEXTC9DLPwCI1hGg
+  </data>
+ </layer>
+ <layer name="04_sols" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+gIVOdozaM3jtGQWDGwgCsRwUiyKxkfmiaHIwvjwQK0DxKBgFxAAuJJoQ5oaq5cEiNwpoA5DzuDkSxlU2IPOFgVgEikcBbYA2EGtCaQ0g1oLSGkji2khifEDMD8QCaOrRAQAFUQdh
+  </data>
+ </layer>
+ <layer name="05_plafond" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBB7xUwKNgFIyCoQ/EgFgCiMWR2CBaEkkMWQ2MFkdSK0Z3V48CSgEAGQACfA==
+  </data>
+ </layer>
+ <layer name="06_catacombe" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBbQARnjE0Gli9WMD1khsTyDWh7INoLQhlNaB0i5o+lWItIdWAAAfOgKj
+  </data>
+ </layer>
+ <layer name="07_catacombe_creatures" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYWcCLSHWBeNT6kmGvNxrfhwwzsAFXCvU7UcUV5AMAsCICUQ==
+  </data>
+ </layer>
+ <layer name="08_catacombe_portes_cage" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBYMRGJGgdiISW48AjQ5cSXEUDQAAOssBwQ==
+  </data>
+ </layer>
+ <layer name="09_hall" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGByiikz0VdLKnbgDssUViG6HRJlB5EyrY44wm54HGR5enNZhEZ/tGAXUBAL7DBQs=
+  </data>
+ </layer>
+ <layer name="11_snowlevel" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALsIIdO9tTRyZ6KYWYPvUEVEFcDcQ0Q1+IRIxc4QukGIG4E4iYgbgZiIyxi/Vj0g9SZUeiGUTAKRsHAAAC1BAst
+  </data>
+ </layer>
+ <layer name="12_snowlevel_stalactite" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRBYyRaGMc4uhi2NSPglEwCkbBKKAOAADGRAGZ
+  </data>
+ </layer>
+ <layer name="13_trone" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0BtEUckcByS2PRAnAnE6EFtCxRKA2ApNjwkQtwNxB5F2WAOxExLfA4uaNCTxRCjdBcTdQNxDpD2jYBSMglEwCkYuAACjAgct
+  </data>
+ </layer>
+ <layer name="14_pieges" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztzTEBADAIwDD8exhsKEUDT/c0BhIhSZJoCT0Xehp6fjjQU9DzoGdjANg2A74=
+  </data>
+ </layer>
+ <layer name="15pieges_socles" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAb2B6UA7YBQQDUbjivYAAPaUAGs=
+  </data>
+ </layer>
+ <layer name="16_platform" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztzrENACAMA8HsPwAQyLA4AwRRQfMnvdzaDAAA4N5US8XvIzhqxaauhvKnj2obV9IFXA==
+  </data>
+ </layer>
+ <layer name="18_princess" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAImD7QDRsEoGAWjYBSMgiEOADtwAJQ=
+  </data>
+ </layer>
+ <layer name="19_grenier" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAt6B9oBVAaddLIHFG59dLIHGY+CUTAKRsEoGBoAAAjdBGY=
+  </data>
+ </layer>
+ <layer name="20_Tours" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhegAlKc9DAbJiZzFB72KGYmcr2IJtLK3vQzR21Z9SeUXuGnj0T6GQPtcCoPaP2DIQ9HKP2kGUPvdMBAHPZBBE=
+  </data>
+ </layer>
+ <layer name="21_avant_plan" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAT5FLBjEoi1BRDaQ4K6HpyHUhjEInEDgfiCBzqoqhoZywQx0HZMUAcjSSXAMTxFJidjMZPgdJJaOJpQJxKgT2jYBTIALEUFEuj8ZHFcakdbCCbQj6xoJBCPrGgnEL+KBgF2AAA3HcOfQ==
+  </data>
+ </layer>
+ <layer name="22_avant_plant_suite" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0AKUAXEGATUg+SyoWkpACQH5fCAuoNAOYkApHewYBaNgFIyCUTD8AAAJPQPv
+  </data>
+ </layer>
+</map>
