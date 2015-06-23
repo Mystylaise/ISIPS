@@ -1,9 +1,31 @@
 fileFormatVersion: 2
 guid: 0bd70016576c3444f9ef1ffcabbd19b6
-timeCreated: 1435002695
+timeCreated: 1435029843
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: tileset_props_0
+    21300002: tileset_props_1
+    21300004: tileset_props_2
+    21300006: tileset_props_3
+    21300008: tileset_props_4
+    21300010: tileset_props_5
+    21300012: tileset_props_6
+    21300014: tileset_props_7
+    21300016: tileset_props_8
+    21300018: tileset_props_9
+    21300020: tileset_props_10
+    21300022: tileset_props_11
+    21300024: tileset_props_12
+    21300026: tileset_props_13
+    21300028: tileset_props_14
+    21300030: tileset_props_15
+    21300032: tileset_props_16
+    21300034: tileset_props_17
+    21300036: tileset_props_18
+    21300038: tileset_props_19
+    21300040: tileset_props_20
+    21300042: tileset_props_21
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -37,7 +59,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +70,227 @@ TextureImporter:
   textureType: 5
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: tileset_props_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 307
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 253
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 325
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 294
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 277
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 252
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 168
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 176
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_8
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 176
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 168
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 168
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 132
+        width: 78
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 120
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 92
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 92
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 84
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_19
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_props_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: tiled2unity
   assetBundleName: 
