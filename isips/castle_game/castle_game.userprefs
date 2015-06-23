@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ZoneLevier.cs">
+    <Files>
+      <File FileName="Assets\Script\ZoneEchelle.cs" Line="26" Column="3" />
+      <File FileName="Assets\Script\ZoneLevier.cs" Line="15" Column="28" />
+      <File FileName="Assets\Script\checkTag.cs" Line="9" Column="32" />
+      <File FileName="Assets\Script\ZoneTower.cs" Line="11" Column="45" />
+      <File FileName="Assets\Script\Mouvement.cs" Line="22" Column="41" />
+      <File FileName="Assets\Script\MainMenuGUI.js" Line="6" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
