@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: a68776f5091989f4289600c74a66e6d3
-timeCreated: 1435002697
+timeCreated: 1435016745
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: tileset_weapon_0
+    21300002: tileset_weapon_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -37,7 +39,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +50,27 @@ TextureImporter:
   textureType: 5
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: tileset_weapon_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 42
+        width: 64
+        height: 210
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_weapon_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 42
+        width: 80
+        height: 210
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: tiled2unity
   assetBundleName: 
